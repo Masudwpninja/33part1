@@ -1,0 +1,157 @@
+*,body{
+    font-family: 'Poppins', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.header-bg{
+    background: #e0e0e0;
+}
+.header-section .navbar .navbar-brand img {
+	width: 89px;
+	height: auto;
+}
+a{
+    text-decoration: none;
+    color: #111;
+}
+.primary-nav li {
+    position: relative;
+}
+.primary-nav li a {
+	padding: 0 25px;
+	display: block;
+	font-weight: 500;
+	font-size: 14px;
+    position: relative;
+    
+}
+
+.active {
+	color: #3763eb;
+}
+.primary-nav li a::after {
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 3px;
+	top: 48px;
+	left: 26px;
+	background-color: #0d6efd;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-in-out;
+}
+.primary-nav li:first-child a::after {
+	opacity: 1;
+	visibility: visible;
+}
+.primary-nav li ul li:first-child a::after {
+	opacity: 0;
+	visibility: hidden;
+}	
+.primary-nav li a:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.primary-nav li ul {
+	position: absolute;
+	top: 244%;
+	left: 26px;
+	width: 200px;
+	background: #ececec;
+	padding: 0;
+	border-radius: 5px;
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+	z-index: 8;
+}
+.primary-nav li:hover ul {
+	opacity: 1;
+    visibility: visible;
+}
+.primary-nav li ul li a {
+	background: #0d6efd;
+	color: white;
+	padding: 10px 20px;
+	margin:15px 20px;
+	border-radius: 5px;
+}
+body .btn-primary {
+	padding: 10px 25px;
+	border-radius: 50px;
+}
+body .allBtn{
+    background-color:white ;
+    border: 1px solid white;
+    color: #0d6efd;
+    transition: .5s;
+}
+body .allBtn:hover {
+    transform: translatey(-5px);
+}
+body .allBtnn:hover {
+    transform: translatey(-5px);
+}
+body .allBtnn {
+    transition: .5s;
+}
+
+.slider-section{
+    background-color: #f6f9fc;
+	position: relative;
+}
+.section-titleText{
+   width: 100%;
+   height: 600px;
+
+}
+
+
+.bottom-toTop-button span {
+   color: white;
+}
+
+.section-titleText {
+	margin-left: 98px !important;
+}
+.section-titleText h2 {
+	font-size: 47px;
+	width: 574px;
+	font-weight: bold;
+}
+.section-titleText p {
+	padding: 20px 0;
+	width: 527px;
+	font-size: 14px;
+}
+.img-right {
+	overflow: hidden;
+}
+.img-right img{
+    -webkit-clip-path: circle(55.8% at 61% 32%);
+    clip-path: circle(55.8% at 61% 32%);
+    margin-left: 60px;
+}
+body .bottom-toTop-button {
+    position: absolute;
+    right: 30px;
+    bottom:10px;
+    background: #0d6efd;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+	
+
+
+
+<a href="https://ibb.co/FmC3YC6"><img src="" alt="hero-image" border="0"></a>
+<a href="https://imgbb.com/"><img src="" alt="logo" border="0"></a>
